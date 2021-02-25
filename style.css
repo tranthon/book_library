@@ -1,0 +1,79 @@
+body {
+  background-color: #e3e2e2;
+}
+
+.form-submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#searchButton {
+  height: 2em;
+  width: 6em;
+  margin-left: 10px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  opacity: 0.8;
+  background-color: #1d0e9e;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  opacity: 1;
+}
+
+#searchInput {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  height: 2em;
+  padding: 14px;
+  width: 20em;
+}
+
+.book-wrapper {
+  margin: 10px 0;
+}
+
+#bookOutput, #pageButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+#pageButtons {
+  margin-top: 10px;
+}
+
+.book {
+  width: 30%;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title {
+  display: block;
+  font-weight: bold;
+}
+
+.author {
+  display: block;
+}
+
+#pageButtons button {
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #1d0e9e;
+  color: white;
+}
